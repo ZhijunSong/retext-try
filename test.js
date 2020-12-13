@@ -13,7 +13,7 @@ var toString = require('nlcst-to-string')
 retext()
   .use(pos) // Make sure to use `retext-pos` before `retext-keywords`.
   .use(keywords)
-  .process(vfile.readSync('pop.txt'), done)
+  .process(vfile.readSync(src), done)
 
 function done(err, file) {
   if (err) throw err
