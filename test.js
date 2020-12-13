@@ -2,7 +2,7 @@
 // var browserify = require('browserify');
 
 var fs= require('fs');
-// var src = fs.readFileSync('pop.txt');
+var src = fs.readFileSync('pop.txt');
 
 var vfile = require('to-vfile')
 var retext = require('retext')
